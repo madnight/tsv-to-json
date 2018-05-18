@@ -1,8 +1,8 @@
 {
-  "name": "tsv-to-json",
-  "version": "0.2.0",
+  "name": "tsv-to-json2",
+  "version": "1.0.0",
   "description": "TSV to JSON convertor",
-  "author": "Ruben Verborgh <ruben.verborgh@gmail.com>",
+  "author": "Fabian Beuke <mail@beuke.org>",
   "keywords": [
     "tsv",
     "json",
@@ -19,9 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RubenVerborgh/tsv-to-json.git"
+    "url": "https://github.com/madnight/tsv-to-json.git"
   },
   "bugs": {
-    "url": "https://github.com/RubenVerborgh/tsv-to-json/issues"
+    "url": "https://github.com/madnight/tsv-to-json/issues"
   }
 }

@@ -35,7 +35,7 @@ else
 function processStream(inputStream) {
   // Write possible header
   if (!destination)
-    process.stdout.write('{\n"records": [\n');
+    process.stdout.write('[');
 
   // Process data by line as long as there is a processor
   input = byline(inputStream).on('data', function (line) {
@@ -47,7 +47,7 @@ function processStream(inputStream) {
   })
   .on('end', function () {
     if (!destination) {
-      process.stdout.write('\n]\n}\n');
+      process.stdout.write(']');
       console.error('Converted ' + recordCount + ' records');
     }
     else {
